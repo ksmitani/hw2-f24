@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
     margin: 20px 20px 0;
@@ -45,6 +45,7 @@ div{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
+    border: none;
     border-bottom: 2px solid;
     border-left: 5px solid;
 }
@@ -53,6 +54,7 @@ div{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
+    border: 0;
     border-right: 5px solid;
     border-top: 2px solid;
 }
@@ -67,6 +69,8 @@ div{
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-right: 0;
+    border-top: 0;
 }
 
 .yellow p{
@@ -79,6 +83,8 @@ div{
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-left: none;
+    border-bottom: none;
 }
 
 footer{
@@ -90,12 +96,4 @@ footer p{
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0;
-};
-
-
-
-
-
-
-
-
+}
